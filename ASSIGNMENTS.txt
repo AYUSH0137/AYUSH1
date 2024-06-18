@@ -1,0 +1,364 @@
+ASSIGNMENTS  
+
+INFO IN - W3SCHOOL
+
+
+
+WHAT IS HTML AND DIFFERENCE OF HTML AND OTHER MARKUP LANGUAGE
+html, 6ml, xml, xhtml etc
+ 
+html is static in nature 
+html is a markup language   ,  XML provides a framework to define markup language
+html can ignore small errors ,  XML doesn't allows errors
+its extension is .html  , its extension .xml
+HTML tags are predefined tags ,  XML tags are user-defined tags.
+There are limited number of tags in HTML.  , XML tags are extensible.
+HTML is used to display the data. ,  XML is used to store data.
+
+
+
+
+WHAT IS XML SYNTAX IT IS USED BY HTML
+HTML and XML are two popular markup languages in application development and web development. Even though they have similar names, they have different use cases. HTML is primarily used to develop an application’s UI. It renders the text, images, buttons, checkboxes, and dropdown boxes seen on a website or application. In contrast, the primary purpose of XML is the exchange and transfer of data. It encodes data in a format readable by both machines and humans. XML describes what the data is, while HTML determines how to display the data to the end user.
+ 
+
+Tags
+Tags are denoted by symbols like brackets, commas, and periods. They provide structure and type to data elements. They define the beginning and end of each element of content. In XML and HTML, tags are enclosed within angle brackets, with each element between two opening and closing tags.
+
+
+Attributes
+Attributes provide more information about an element, such as an image URL. In HTML and XML, you define an element’s attributes inside the opening tag.
+
+
+
+
+WHAT ARE HTML TAGS LISTS 
+HTML tags are the keywords that are used to produce web pages in various formats. Opening tags and closing tags are found in the majority of tags. The concluding tags contain a forward slash (/), while the language of the beginning tags is the same. Certain tags don’t need to be closed.
+
+
+
+
+ LIST OF TAGS AND ITS USED
+<ul>
+<ol>
+<li>
+<dl>
+<dt>
+
+
+ Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+An unordered HTML list:
+-item
+-Item
+-Item
+-Item
+
+An ordered HTML list:
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+Description list
+__________________________________________________________________________________________________________________________________________________________________________________________
+DAY 2 
+
+1. Self Closing Tags and its list
+Tag	Description
+
+<area>	The HTML <area> tag specifies an area within an image map with predetermined clickable zones based on coordinates, which subsequently accepts a URL and behaves as a hyperlink. This element can only be used inside an <map> element.
+
+<base>	The HTML <base> tag specifies a base URI, often known as a base URL, for relative links in a document. A document can only include one <base> element. For example, you can specify the base URL once in the header area of your page, and all subsequent relative links will utilize that URL as a starting point.
+
+<br>	The HTML <br> tag is used to create a line break in the text. It is typically employed in poems or addresses where line division is required. It is an empty tag, which means it contains no content and is referred to as a void element. Including the <br> tag in the HTML code functions similarly to pressing the enter key in a word processor.
+
+<col>	The HTML <col> tag specifies the attributes for columns contained within the <colgroup> tag. This allows you to format or add a class to a column or group of columns rather than each individual cell. It is most commonly found within an <colgroup> element. This element specifies the style property for each column.
+
+<embed>	The HTML <embed> tag is used to embed external applications, which are typically multimedia elements such as audio or video, at the specified place in an HTML document. It serves as a container for plug-ins such as flash animations. This is a new tag in HTML 5, and it just requires the beginning tag.
+
+<hr>	The HTML <hr> tag is used to insert a horizontal rule or a paragraph-level thematic break in a Html document to split or separate document sections. It is used when the topic of your HTML content abruptly changes. It divides them by drawing a horizontal line. The <hr> tag is an empty tag that does not require a closing tag. For example, a change of scene in a story or a switch of the topic within a segment.
+
+<img>	The HTML <img> tag is used to display or embed an image on the web page. The HTML image element is an inline and empty element that only includes attributes; closing tags are not used in the image element.
+
+<input>	The HTML <input> tag is used to create interactive controls for web-based forms to accept data from the user; depending on the device and user agent, a wide variety of input data and control widgets are accessible. The element is among the most powerful and complex in all HTML tags due to the vast amount of input types and attribute combinations. It is used inside the <form> element to declare input controls that allow users to enter data. <label> can be used to define labels for the input element.
+
+<link>	The HTML <link> tag is used to establish a connection between a current document and an external resource. The link tag is mainly used to connect to external sheets and establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices), among other things. This element can appear more than once, but it only appears in the head section. The link element's values indicate how the item is linked to and is related to the containing page.
+
+<meta>	The HTML <meta> tag allows you to add metadata - extra essential information about a document in a number of ways. The <meta> elements can be used to incorporate name/value pairs specifying HTML document features such as expiry date, author, a list of keywords, document author, etc. You can include more than one meta tag in your document depending on the information you wish to maintain. Still, in general, meta tags do not affect the physical appearance of the document. Thus it makes no difference whether you include them or not.
+
+<param>	The HTML <param> tag is used to pass a parameter to the object associated with the <object> element for plug-ins. We can use several <param> tags within an <object> element in any order, but each tag must have a name and value attribute and should be inserted at the beginning of the content. The parameter tag governs the behavior of the <object> element by specifying a distinct pair of name and value attributes, such as autoplay, controller, etc.
+
+<source>	The HTML <source> tag is used as a child element to define multiple media resources for the <audio>, <video>, and <image> elements. It is widely used to provide the same media material in several file formats, such as mp3, mp4, and so on, in order to enable compatibility with a wide range of browsers due to their varying support for image and media file formats. Basically, it is used to attach multimedia assets such as audio, video, and images.
+
+<track>	The HTML <track> tag is used as a child element of <audio> and <video> elements in order to define time-based text tracks for a media file.  It is used to include a subtitle, caption, or any other type of text that will be rendered when a media file gets displayed. For example, it allows you to set timed text tracks (or time-based data) to handle subtitles automatically. WebVTT (Web Video Text Tracks) format (.vtt files) is used for the tracks.
+
+
+
+
+2. What are the bad practices of html
+
+1. Div Soup
+The bad practice called div soup refers to an HTML structure where <div> elements are excessively & indiscriminately used without clear structure.
+Excessive use of <div>:
+Lack of semantic structure:
+Difficulty in maintenance:
+Impact on accessibility & SEO:
+
+
+2. Incorrect Titles
+Improper use of heading tags, such as <h1> to <h6>, refers to using these tags in a way that does not reflect the correct hierarchical structure of a page.
+SEO implications: 
+
+
+3. Line Breaks
+The bad practice of excessive use of <br> tags refers to using these tags excessively to create spaces or line breaks within the content.
+
+
+4. Table Layout
+This bad practice involves using HTML tables to create complex layouts instead of using proper modern layout techniques.
+
+
+5. HTML Design
+The incorrect use of semantic tags is considered a bad practice in HTML5.
+For example, the <strong> tag is meant to indicate that the content is important or requires emphasis & not solely for formatting text in bold.
+
+
+6. Obsolete Attributes
+The bad practice of using obsolete HTML attributes refers to the use of outdated attributes that are no longer recommended or supported in HTML5.
+
+
+
+3. Create a html doc 
+
+what is wordpress 
+
+
+
+___________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+what are syntax in javascript ?
+what is DOM ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+ss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAY 3 
+
+
+<div align="center" style="background-color: rgb(56, 228, 228); border-radius: 20px; padding-top: 32px; padding-bottom: 32px;">
+    <img style="border-radius: 18px;" width="1200" src="background.webp" alt="women playing football">
+    <div style="float: none;"></div>
+    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 400;"></p>
+    Get your favourite jerseys at the store near you starting from 10$ for first time customers. <br> Hurry up!!<br> 
+
+   <i class="fa-solid fa-phone"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <div>
+<img width="200px; border-radius 900px"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML AND CSS TAGS 
+
+
+<!DOCTYPE>       	Defines the document type
+<a>	                Defines a hyperlink
+<abbr>	                Defines an abbreviation or an acronym
+<acronym>        	Not supported in HTML5. Use <abbr> instead.
+                        Defines an acronym
+<address>        	Defines contact information for the author/owner of a document
+<applet>	        Not supported in HTML5. Use <embed> or <object> instead.
+                       Defines an embedded applet
+<area>           	Defines an area inside an image map
+<article>         	Defines an article
+<aside>         	Defines content aside from the page content
+<audio>         	Defines embedded sound content
+<b>               	Defines bold text
+<base>          	Specifies the base URL/target for all relative URLs in a document
+<basefont>       	Not supported in HTML5. Use CSS instead.
+                        Specifies a default color, size, and font for all text in a document
+<bdi>               	Isolates a part of text that might be formatted in a different direction from other text outside it
+<bdo>             	Overrides the current text direction
+<big>           	Not supported in HTML5. Use CSS instead.
+                        Defines big text
+<blockquote>	Defines a section that is quoted from another source
+<body>	Defines the document's body
+<br>	Defines a single line break
+<button>	Defines a clickable button
+<canvas>	Used to draw graphics, on the fly, via scripting (usually JavaScript)
+<caption>	Defines a table caption
+<center>	Not supported in HTML5. Use CSS instead.
+Defines centered text
+<cite>	Defines the title of a work
+<code>	Defines a piece of computer code
+<col>	Specifies column properties for each column within a <colgroup> element 
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<data>	Adds a machine-readable translation of a given content
+<datalist>	Specifies a list of pre-defined options for input controls
+<dd>	Defines a description/value of a term in a description list
+<del>	Defines text that has been deleted from a document
+<details>	Defines additional details that the user can view or hide
+<dfn>	Specifies a term that is going to be defined within the content
+<dialog>	Defines a dialog box or window
+<dir>	Not supported in HTML5. Use <ul> instead.
+Defines a directory list
+<div>	Defines a section in a document
+<dl>	Defines a description list
+<dt>	Defines a term/name in a description list
+<em>	Defines emphasized text 
+<embed>	Defines a container for an external application
+<fieldset>	Groups related elements in a form
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content
+<font>	Not supported in HTML5. Use CSS instead.
+Defines font, color, and size for text
+<footer>	Defines a footer for a document or section
+<form>	Defines an HTML form for user input
+<frame>	Not supported in HTML5.
+Defines a window (a frame) in a frameset
+<frameset>	Not supported in HTML5.
+Defines a set of frames
+<h1> to <h6>	Defines HTML headings
+<head>	Contains metadata/information for the document
+<header>	Defines a header for a document or section
+<hgroup>	Defines a header and related content
+<hr>	Defines a thematic change in the content
+<html>	Defines the root of an HTML document
+<i>	Defines a part of text in an alternate voice or mood
+<iframe>	Defines an inline frame
+<img>	Defines an image
+<input>	Defines an input control
+<ins>	Defines a text that has been inserted into a document
+<kbd>	Defines keyboard input
+<label>	Defines a label for an <input> element
+<legend>	Defines a caption for a <fieldset> element
+<li>	Defines a list item
+<link>	Defines the relationship between a document and an external resource (most used to link to style sheets)
+<main>	Specifies the main content of a document
+<map>	Defines an image map
+<mark>	Defines marked/highlighted text
+<menu>	Defines an unordered list
+<meta>	Defines metadata about an HTML document
+<meter>	Defines a scalar measurement within a known range (a gauge)
+<nav>	Defines navigation links
+<noframes>	Not supported in HTML5.
+Defines an alternate content for users that do not support frames
+<noscript>	Defines an alternate content for users that do not support client-side scripts
+<object>	Defines a container for an external application
+<ol>	Defines an ordered list
+<optgroup>	Defines a group of related options in a drop-down list
+<option>	Defines an option in a drop-down list
+<output>	Defines the result of a calculation
+<p>	Defines a paragraph
+<param>	Defines a parameter for an object
+<picture>	Defines a container for multiple image resources
+<pre>	Defines preformatted text
+<progress>	Represents the progress of a task
+<q>	Defines a short quotation
+<rp>	Defines what to show in browsers that do not support ruby annotations
+<rt>	Defines an explanation/pronunciation of characters (for East Asian typography)
+<ruby>	Defines a ruby annotation (for East Asian typography)
+<s>	Defines text that is no longer correct
+<samp>	Defines sample output from a computer program
+<script>	Defines a client-side script
+<search>	Defines a search section
+<section>	Defines a section in a document
+<select>	Defines a drop-down list
+<small>	Defines smaller text
+<source>	Defines multiple media resources for media elements (<video> and <audio>)
+<span>	Defines a section in a document
+<strike>	Not supported in HTML5. Use <del> or <s> instead.
+Defines strikethrough text
+<strong>	Defines important text
+<style>	Defines style information for a document
+<sub>	Defines subscripted text
+<summary>	Defines a visible heading for a <details> element
+<sup>	Defines superscripted text
+<svg>	Defines a container for SVG graphics
+<table>	Defines a table
+<tbody>	Groups the body content in a table
+<td>	Defines a cell in a table
+<template>	Defines a container for content that should be hidden when the page loads
+<textarea>	Defines a multiline input control (text area)
+<tfoot>	Groups the footer content in a table
+<th>	Defines a header cell in a table
+<thead>	Groups the header content in a table
+<time>	Defines a specific time (or datetime)
+<title>	Defines a title for the document
+<tr>	Defines a row in a table
+<track>	Defines text tracks for media elements (<video> and <audio>)
+<tt>	Not supported in HTML5. Use CSS instead.
+Defines teletype text
+<u>	Defines some text that is unarticulated and styled differently from normal text
+<ul>	Defines an unordered list
+<var>	Defines a variable
+<video>	Defines embedded video content
+<wbr>	Defines a possible line-break
+
+
+
+
+
+
+
+
+
+
+ 
